@@ -40,7 +40,7 @@ public class HorseBarn {
             {
                 barn = barn + "Index "+ i+ " of the barn:"+" null"+ "\n";
             } else {
-                barn = barn+ "Index "+ i+ " of the barn:  "+"Name: "+horse.getName() +"  Weight: "+ horse.getWeight()+"\n";
+                barn = barn+ "Index "+ i+ " of the barn:  "+"Name: "+horse.getName() +"  Weight: "+ horse.getWeight()+ "\n";
             }
             i++;
         }
